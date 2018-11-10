@@ -8,13 +8,14 @@ a {
 }
 .lnk {
     margin: 1px;
-    text-size: 14px;
+    font-size: 14px;
     text-decoration: none;
     border: 1px solid #888;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 3px;
     padding-right: 3px;
+    cursor: pointer;
 }
 .selected {
     color: #000;
@@ -30,6 +31,7 @@ a {
     background-color: #ddd;
     padding: 5px;
     margin: 10px;
+    line-height: 2;
 }
 
 td {
@@ -69,4 +71,27 @@ div.button {
 .cover {
     background-size: cover;
     background-repeat: no-repeat;
+}
+.donation {
+    display: inline-block;
+    position: relative;
+    margin: 1ex 1em;
+}
+.qrcontainer {
+    display: inline-block;
+    position: relative;
+    margin: 1ex 3em;
+}
+.qrcode {
+    display: inline-block;
+}
+.qrlogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bolt {
+    margin-bottom: 2ex;
 }
